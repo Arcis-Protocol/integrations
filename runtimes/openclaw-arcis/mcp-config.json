@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "arcis": {
+      "url": "https://mcp.arcis.money/mcp",
+      "transport": "http",
+      "description": "Arcis treasury — earn yield on idle USDC on Base mainnet (deposit, withdraw, balance, vaults, credit)."
+    }
+  }
+}

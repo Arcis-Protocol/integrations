@@ -1,0 +1,52 @@
+{
+  "name": "@arcisprotocol/vercel-ai-arcis",
+  "version": "1.0.0",
+  "description": "Vercel AI SDK tools for the Arcis treasury \u2014 earn yield on idle USDC on Base mainnet. Works with any model via the AI SDK.",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts --clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "vercel",
+    "ai-sdk",
+    "arcis",
+    "defi",
+    "treasury",
+    "ai-agents",
+    "base",
+    "yield"
+  ],
+  "author": "Arcis Protocol",
+  "license": "MIT",
+  "peerDependencies": {
+    "ai": ">=3.0.0",
+    "zod": ">=3.22.0"
+  },
+  "dependencies": {
+    "@arcisprotocol/sdk": "^1.0.0",
+    "viem": "^2.21.0"
+  },
+  "devDependencies": {
+    "ai": "^4.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.4.0",
+    "zod": "^3.23.0"
+  },
+  "homepage": "https://github.com/Arcis-Protocol/integrations/tree/main/typescript/vercel-ai-arcis#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arcis-Protocol/integrations.git",
+    "directory": "typescript/vercel-ai-arcis"
+  },
+  "bugs": {
+    "url": "https://github.com/Arcis-Protocol/integrations/issues"
+  }
+}

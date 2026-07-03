@@ -1,0 +1,52 @@
+{
+  "name": "@arcisprotocol/game-plugin-arcis",
+  "version": "1.0.0",
+  "description": "GAME (Virtuals) plugin for Arcis \u2014 give any GAME agent a treasury. Earn yield on idle USDC, check positions, borrow against reputation, and manage capital on Base mainnet.",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts --clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "virtuals",
+    "game",
+    "game-by-virtuals",
+    "arcis",
+    "defi",
+    "treasury",
+    "yield",
+    "ai-agents",
+    "base",
+    "plugin"
+  ],
+  "author": "Arcis Protocol",
+  "license": "MIT",
+  "peerDependencies": {
+    "@virtuals-protocol/game": ">=0.1.0"
+  },
+  "dependencies": {
+    "@arcisprotocol/sdk": "^1.0.0",
+    "viem": "^2.21.0"
+  },
+  "devDependencies": {
+    "@virtuals-protocol/game": "^0.1.8",
+    "tsup": "^8.0.0",
+    "typescript": "^5.4.0"
+  },
+  "homepage": "https://github.com/Arcis-Protocol/integrations/tree/main/typescript/game-plugin-arcis#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arcis-Protocol/integrations.git",
+    "directory": "typescript/game-plugin-arcis"
+  },
+  "bugs": {
+    "url": "https://github.com/Arcis-Protocol/integrations/issues"
+  }
+}

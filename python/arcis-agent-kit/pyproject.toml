@@ -1,0 +1,30 @@
+[project]
+name = "arcis-agent-kit"
+version = "1.1.0"
+description = "The Arcis treasury for every agent framework — OpenAI, Claude, Gemini, Grok, CrewAI, AutoGen. Earn yield on idle USDC on Base mainnet."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Arcis Protocol" }]
+keywords = ["arcis", "defi", "treasury", "ai-agents", "openai", "anthropic", "claude", "gemini", "grok", "crewai", "autogen", "coinbase-agentkit", "pydantic-ai", "google-adk", "base", "web3", "yield"]
+dependencies = ["web3>=6.0.0", "requests>=2.28.0", "pydantic>=2.0.0"]
+
+[project.optional-dependencies]
+crewai = ["crewai>=0.40.0"]
+autogen = ["pyautogen>=0.2.0"]
+agentkit = ["coinbase-agentkit>=0.1.0"]
+pydantic-ai = ["pydantic-ai>=0.0.14"]
+google-adk = ["google-adk>=0.1.0"]
+
+[project.urls]
+Homepage = "https://arcis.money"
+Repository = "https://github.com/Arcis-Protocol/integrations"
+Source = "https://github.com/Arcis-Protocol/integrations/tree/main/python/arcis-agent-kit"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["arcis_agent_kit*"]

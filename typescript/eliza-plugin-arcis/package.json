@@ -1,0 +1,49 @@
+{
+  "name": "@arcisprotocol/eliza-plugin-arcis",
+  "version": "1.0.0",
+  "description": "ElizaOS plugin \u2014 give any agent a treasury. Idle USDC auto-earns yield in the Arcis vault on Base.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts --clean",
+    "demo": "tsx demo.ts"
+  },
+  "keywords": [
+    "elizaos",
+    "eliza-plugin",
+    "arcis",
+    "defi",
+    "agent",
+    "yield",
+    "base",
+    "usdc"
+  ],
+  "peerDependencies": {
+    "@elizaos/core": ">=1.0.0"
+  },
+  "dependencies": {
+    "@arcisprotocol/sdk": "^1.0.0",
+    "viem": "^2.21.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0",
+    "@elizaos/core": "^1.7.2"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Arcis-Protocol/integrations/tree/main/typescript/eliza-plugin-arcis#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arcis-Protocol/integrations.git",
+    "directory": "typescript/eliza-plugin-arcis"
+  },
+  "bugs": {
+    "url": "https://github.com/Arcis-Protocol/integrations/issues"
+  }
+}

@@ -1,0 +1,27 @@
+[project]
+name = "arcis-langchain"
+version = "1.0.0"
+description = "LangChain tools for the Arcis treasury — let any Python agent earn yield on idle USDC, check positions, and borrow, on Base mainnet."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Arcis Protocol" }]
+keywords = ["langchain", "arcis", "defi", "treasury", "ai-agents", "base", "web3", "yield"]
+dependencies = [
+  "langchain-core>=0.3.0",
+  "web3>=6.0.0",
+  "requests>=2.28.0",
+]
+
+[project.urls]
+Homepage = "https://arcis.money"
+Repository = "https://github.com/Arcis-Protocol/integrations"
+Source = "https://github.com/Arcis-Protocol/integrations/tree/main/python/langchain-arcis"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["arcis_langchain*"]
