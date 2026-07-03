@@ -1,5 +1,8 @@
 # @arcisprotocol/eliza-plugin-arcis
 
+> **Compatibility:** targets `@elizaos/core` 1.x (declared as a peer dependency).
+
+
 Give any ElizaOS agent a treasury. Idle USDC auto-earns a variable APY in the [Arcis](https://arcis.money) vault on Base, and is auto-withdrawn when the agent needs to spend.
 
 Your agent earns yield between jobs without you writing a line of DeFi code.
