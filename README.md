@@ -9,13 +9,14 @@ Framework and runtime integrations for [Arcis Protocol](https://arcis.money) —
 | Package | Install | Covers |
 |---|---|---|
 | [`arcis-agent-kit`](python/arcis-agent-kit) | `pip install arcis-agent-kit` | OpenAI · Claude · Gemini · Grok (xAI) · CrewAI · AutoGen · Coinbase AgentKit · Pydantic AI · Google ADK |
-| [`arcis-langchain`](python/langchain-arcis) | `pip install arcis-langchain` | LangChain — 7 StructuredTools with live APY |
+| [`arcis-langchain`](python/langchain-arcis) | `pip install arcis-langchain` | LangChain & **LangGraph** — 7 StructuredTools with live APY |
 
 ## TypeScript / JavaScript — `typescript/`
 
 | Package | Install | Framework |
 |---|---|---|
 | [`@arcisprotocol/vercel-ai-arcis`](typescript/vercel-ai-arcis) | `npm i @arcisprotocol/vercel-ai-arcis` | Vercel AI SDK |
+| [`@arcisprotocol/mastra-arcis`](typescript/mastra-arcis) | `npm i @arcisprotocol/mastra-arcis` | Mastra |
 | [`@arcisprotocol/game-plugin-arcis`](typescript/game-plugin-arcis) | `npm i @arcisprotocol/game-plugin-arcis` | GAME (Virtuals Protocol) |
 | [`@arcisprotocol/eliza-plugin-arcis`](typescript/eliza-plugin-arcis) | `npm i @arcisprotocol/eliza-plugin-arcis` | ElizaOS |
 

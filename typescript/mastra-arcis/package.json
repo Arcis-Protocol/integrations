@@ -1,0 +1,23 @@
+{
+  "name": "@arcisprotocol/mastra-arcis",
+  "version": "1.0.0",
+  "description": "Mastra tools for the Arcis treasury — earn yield on idle USDC on Base mainnet. Deposit, withdraw, read positions, and check credit from any Mastra agent.",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist", "README.md"],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts --clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": ["mastra", "arcis", "defi", "treasury", "ai-agents", "base", "yield"],
+  "author": "Arcis Protocol",
+  "license": "MIT",
+  "peerDependencies": { "@mastra/core": ">=0.4.0", "zod": ">=3.22.0" },
+  "dependencies": { "@arcisprotocol/sdk": "^1.0.0", "viem": "^2.21.0" },
+  "devDependencies": { "@mastra/core": "^0.4.0", "tsup": "^8.0.0", "typescript": "^5.4.0", "zod": "^3.23.0" },
+  "homepage": "https://github.com/Arcis-Protocol/integrations/tree/main/typescript/mastra-arcis#readme",
+  "repository": { "type": "git", "url": "git+https://github.com/Arcis-Protocol/integrations.git", "directory": "typescript/mastra-arcis" },
+  "bugs": { "url": "https://github.com/Arcis-Protocol/integrations/issues" }
+}
