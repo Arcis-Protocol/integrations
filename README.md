@@ -39,3 +39,7 @@ Any MCP client can also connect directly to the hosted server at `https://mcp.ar
 ## License
 
 MIT
+
+## CoinMarketCap Agent Hub / Skills Marketplace
+
+A drop-in **SKILL.md** skill (CMC-marketplace format) so any agent — in Claude Code, VS Code, or any MCP client — can discover Arcis and put idle USDC to work through the Arcis MCP server. See [`skills/arcis-treasury`](skills/arcis-treasury).
